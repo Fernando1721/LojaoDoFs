@@ -3,7 +3,7 @@ import { Entypo } from "@expo/vector-icons";
 import { styles } from "../../css/Styles";
 import { useState } from "react";
 
-export default function Main(props){
+export default function Main(props:any){
     
     const [usuario, setUsuario] = useState("");
     const [senha, setSenha] = useState("");
@@ -14,7 +14,8 @@ export default function Main(props){
            <TextInput placeholder="Usuário" keyboardType="default" style={styles.caixa} value={usuario} onChangeText={(value)=> setUsuario(value)}/>
            <TextInput secureTextEntry placeholder="Senha" style={styles.caixa} value={senha} onChangeText={(value)=> setSenha(value)} />
            <TouchableOpacity onPress={()=>{
-               efetuarLogin(usuario,senha);
+              // efetuarLogin(usuario,senha);
+            props.acao.navigate("Home");
 
            }} style={styles.btntllogin}>
                 <Entypo name="login" size={24} color ="black"/>
