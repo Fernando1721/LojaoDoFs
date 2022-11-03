@@ -6,7 +6,8 @@ export const styles = StyleSheet.create({
     login:{
         flex:1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop:-80
     },
     titulo:{
         fontSize:20,

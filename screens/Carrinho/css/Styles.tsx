@@ -1,0 +1,76 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    header:{
+        flexDirection:"row",
+        backgroundColor:"black",
+        justifyContent:"space-between",
+        alignItems:"center",
+        height:"15%",
+        flex:2,
+        padding:20
+
+    },
+    logo:{
+        width:50,
+        height:50,
+        resizeMode:"cover"
+    },
+    titulo:{
+        fontSize:20,
+        color:"white",
+        fontWeight:"bold"
+    },
+    btncarrinho:{
+        padding:20,
+        backgroundColor:"black",
+        margin:20,
+        borderRadius:20,
+        marginLeft:"auto",
+        marginRight:"auto",
+    },
+    txtcarrinho:{
+        color:"#fff",
+        fontSize:19,
+        fontWeight:"bold",
+        textAlign:"center"
+    },
+    produto:{
+        padding:10,
+        fontSize:15,
+        fontWeight:"bold"
+    },
+    preco:{ 
+        padding:10,
+        paddingTop:-10,
+        color:"#900",
+        fontSize:15,
+        fontWeight:"bold"
+    },
+    quantidade:{
+        fontSize:15,
+        color:"darkblue",
+        fontWeight:"bold",
+        paddingLeft:15
+
+    },
+    btnremovercarrinho:{
+        backgroundColor:"red",
+        width:250,
+        padding:6,
+        borderRadius:15,
+        marginLeft:"auto",
+        marginRight:"auto",
+
+    },
+    fecharpedido:{
+        backgroundColor:"white",
+        paddingTop:20,
+        padding:10
+    },
+    txtfecharpedido:{
+        backgroundColor:"white",
+        fontSize:20,
+        textAlign:"center",
+    }
+})

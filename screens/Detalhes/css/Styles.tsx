@@ -21,4 +21,18 @@ export const styles = StyleSheet.create({
         color:"white",
         fontWeight:"bold"
     },
+    btncarrinho:{
+        padding:20,
+        backgroundColor:"black",
+        margin:20,
+        borderRadius:20,
+        marginLeft:"auto",
+        marginRight:"auto",
+    },
+    txtcarrinho:{
+        color:"#fff",
+        fontSize:19,
+        fontWeight:"bold",
+        textAlign:"center"
+    }
 })
